@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tyrogzl.github.io/about/index.html</loc>
+    
+    <lastmod>2022-07-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tyrogzl.github.io/2022/07/24/UR3%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%9B%85%E5%85%8B%E6%AF%94%E7%9F%A9%E9%98%B5/</loc>
     
     <lastmod>2022-07-25</lastmod>
@@ -32,15 +41,6 @@
     <loc>https://tyrogzl.github.io/2022/07/21/latex/</loc>
     
     <lastmod>2022-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tyrogzl.github.io/about/index.html</loc>
-    
-    <lastmod>2022-07-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

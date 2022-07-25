@@ -29,16 +29,16 @@
   </url>
   
   <url>
-    <loc>https://tyrogzl.github.io/about/index.html</loc>
+    <loc>https://tyrogzl.github.io/2022/07/21/latex/</loc>
     
-    <lastmod>2022-07-24</lastmod>
+    <lastmod>2022-07-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://tyrogzl.github.io/2022/07/21/latex/</loc>
+    <loc>https://tyrogzl.github.io/about/index.html</loc>
     
     <lastmod>2022-07-24</lastmod>
     
@@ -56,12 +56,33 @@
 
   
   <url>
-    <loc>https://tyrogzl.github.io/tags/UR3/</loc>
+    <loc>https://tyrogzl.github.io/tags/UR3%E6%9C%BA%E5%99%A8%E4%BA%BA/</loc>
+    <lastmod>2022-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tyrogzl.github.io/tags/latex/</loc>
     <lastmod>2022-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://tyrogzl.github.io/categories/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BB%BA%E6%A8%A1/</loc>
+    <lastmod>2022-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tyrogzl.github.io/categories/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2022-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>

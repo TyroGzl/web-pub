@@ -1,3 +1,5 @@
+https://summersong.top/2022/07/27/C-%E7%B1%BB%E7%9A%84%E7%9B%B8%E5%85%B3%E5%86%85%E5%AE%B9/
+https://summersong.top/2022/07/27/C-%E7%9A%84%E5%87%BD%E6%95%B0%E6%A8%A1%E6%9D%BF/
 https://summersong.top/2022/07/26/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/
 https://summersong.top/about/index.html
 https://summersong.top/2022/07/24/UR3%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%9B%85%E5%85%8B%E6%AF%94%E7%9F%A9%E9%98%B5/
@@ -8,6 +10,8 @@ https://summersong.top/
 https://summersong.top/tags/UR3%E6%9C%BA%E5%99%A8%E4%BA%BA/
 https://summersong.top/tags/latex/
 https://summersong.top/tags/hexo/
+https://summersong.top/tags/C/
 https://summersong.top/categories/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BB%BA%E6%A8%A1/
 https://summersong.top/categories/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/
 https://summersong.top/categories/hexo/
+https://summersong.top/categories/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/

@@ -1,15 +1,2 @@
-//运行时间bynote.cn
-var now = new Date(); 
-function createtime() { 
-    var grt= new Date("7/21/2022 00:00:00");//在此处修改你的建站时间，格式：月/日/年 时:分:秒
-    now.setTime(now.getTime()+250); 
-    days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
-    hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
-    if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
-    mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
-    seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
-    snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-    document.getElementById("timeDate").innerHTML = "本站已各种夹缝中安全运行 "+dnum+" 天 "; 
-    document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
-} 
-setInterval("createtime()",250);
+<center><div>
+<span id="runtime_span"></span><script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new Date("11/11/2017 1:21:40");Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);runtime_span.innerHTML="本站已运行"+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();</script></div></center>﻿

@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>git基本使用</title>
+    <link href="/post/a531cc26.html"/>
+    <url>/post/a531cc26.html</url>
+    
+    <content type="html"><![CDATA[<h1>1 Git常用命令</h1><p>Git常用的是以下6个命令：</p><ul><li>git clone</li><li>git push</li><li>git add</li><li>git commit</li><li>git checkout</li><li>git pull</li></ul><p>这6个命令的关系如下图所示：</p><p><img src="https://www.runoob.com/wp-content/uploads/2015/02/git-command.jpg" alt></p><p>说明：</p><ul><li>workspace：工作区，就是电脑里能看到的目录。</li><li>staging area：暂存区/缓存区，一般存放在<code>.git</code>目录下的index文件中，所以有时也叫作索引（index）。</li><li>local repository：版本库或本地仓库</li><li>remote repository：远程仓库</li></ul><h1>2 创建仓库</h1><h2 id="2-1-git-init">2.1 git init</h2><p>Git 使用<code>git init</code>命令来初始化一个 Git 仓库，Git 的很多命令都需要在 Git 的仓库中运行，所以<code>git init</code>是使用 Git 的第一个命令。</p><p>在执行完成<code>git init</code>命令后，Git 仓库会生成一个 .git 目录，该目录包含了资源的所有元数据，其他的项目目录保持不变。</p><p>使用方法：</p><p>使用当前目录作为 Git 仓库，我们只需使它初始化。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">git init<br></code></pre></td></tr></table></figure><p>该命令执行完后会在当前目录生成一个 .git 目录。</p><p>使用我们指定目录作为Git仓库。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">git init newrepo<br></code></pre></td></tr></table></figure><p>初始化后，会在 newrepo 目录下会出现一个名为 .git 的目录，所有 Git 需要的数据和资源都存放在这个目录中。</p><h2 id="2-2-git-clone">2.2 git clone</h2><p>我们使用<code>git clone</code>从现有 Git 仓库中拷贝项目。</p><p>克隆仓库的命令格式为：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">git clone &lt;repo&gt;<br></code></pre></td></tr></table></figure><p>如果我们需要克隆到指定的目录，可以使用以下命令格式：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">git clone &lt;repo&gt; &lt;directory&gt;<br></code></pre></td></tr></table></figure><p>参数说明：</p><ul><li>repo：Git 仓库。</li><li>directory：本地目录。</li></ul><h2 id="2-3-git-config">2.3 git config</h2><h3 id="2-3-1-显示当前的-git-配置信息">2.3.1 显示当前的 git 配置信息</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">git config --list<br></code></pre></td></tr></table></figure><h3 id="2-3-2-编辑-git-配置文件">2.3.2 编辑 git 配置文件</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">git config -e    # 针对当前仓库 <br></code></pre></td></tr></table></figure><p>或者：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">git config -e --global   # 针对系统上所有仓库<br></code></pre></td></tr></table></figure><h3 id="2-3-3-设置提交代码时的用户信息">2.3.3 设置提交代码时的用户信息</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">git config --global user.name "runoob"<br>git config --global user.email test@runoob.com<br></code></pre></td></tr></table></figure><p>如果去掉<code>--global</code>参数只对当前仓库有效。</p><h2 id="2-4-提交修改">2.4 提交修改</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs shell">git add . # 将所有更改添加到暂存区 <br>git commit -m "" # 提交<br>git push #推送到远程仓库，如有<br></code></pre></td></tr></table></figure><h1>3 分支操作</h1><h2 id="3-1-创建分支">3.1 创建分支</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">git branch (branchName)<br></code></pre></td></tr></table></figure><h2 id="3-2-切换分支">3.2 切换分支</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">git checkout (branchName)<br></code></pre></td></tr></table></figure><p>使用如下命令创建新分支并切换到该新分支下：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">git checkout -b (branchName)<br></code></pre></td></tr></table></figure><h2 id="3-3-删除分支">3.3 删除分支</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">git branch -d (branchName)<br></code></pre></td></tr></table></figure><h2 id="3-4-合并分支">3.4 合并分支</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">git merge (branchName)<br></code></pre></td></tr></table></figure><p>将任意分支合并到当前分支下。</p><blockquote><p>参考文章：<a href="https://www.runoob.com/git/git-tutorial.html">Git 教程 | 菜鸟教程 (runoob.com)</a></p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>Git</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Git</tag>
+      
+      <tag>教程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>C++学习笔记：variant及其overload模式</title>
     <link href="/post/6c683693.html"/>
     <url>/post/6c683693.html</url>

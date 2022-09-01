@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://summersong.top/post/3ebc6069.html</loc>
+    
+    <lastmod>2022-09-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://summersong.top/post/a531cc26.html</loc>
     
     <lastmod>2022-09-01</lastmod>
@@ -231,6 +240,27 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://summersong.top/tags/%E5%BE%AE%E4%BF%A1/</loc>
+    <lastmod>2022-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://summersong.top/tags/%E6%97%A9%E5%AE%89%E9%97%AE%E5%80%99/</loc>
+    <lastmod>2022-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://summersong.top/tags/%E6%B5%AA%E6%BC%AB/</loc>
+    <lastmod>2022-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -277,6 +307,13 @@
   
   <url>
     <loc>https://summersong.top/categories/Git/</loc>
+    <lastmod>2022-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://summersong.top/categories/%E6%B5%AA%E6%BC%AB/</loc>
     <lastmod>2022-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

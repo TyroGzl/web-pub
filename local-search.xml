@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>word设置默认模板</title>
+    <link href="/post/d86e7813.html"/>
+    <url>/post/d86e7813.html</url>
+    
+    <content type="html"><![CDATA[<p>使用word时，每次新建一个文档都需要重新调整标题、正文格式，本文介绍一种更改word默认模板的方法，这样每次新建word都会继承模板的格式。</p><ol><li><p>找到新建word时默认载入的模板文件<code>Normal.dotm</code>，路径为：<code>C:\Users\用户名\AppData\Roaming\Microsoft\Templates</code>。</p></li><li><p>双击打开<code>Normal.dotm</code>，按照平常修改word格式的方法，修改标题、正文等的样式。</p></li><li><p>修改完毕后，另存为。选择保存类型为“启用宏的Word模板（*.dotm）”，文件名为默认的<code>Doc1.dotm</code>，<b>注意此时文件名不能是<code>Normal.dotm</code>！！！</b></p></li><li><p>另存为完毕后，删除原来的<code>Normal.dotm</code>，将刚刚保存的<code>Doc1.dotm</code>重命名为<code>Normal.dotm</code>。</p></li><li><p>此时再新建一个word，里面的样式表就是刚刚设置的样式了。</p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>word设置</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>office</tag>
+      
+      <tag>word</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>微信自动推送早安问候教程</title>
     <link href="/post/3ebc6069.html"/>
     <url>/post/3ebc6069.html</url>

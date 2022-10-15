@@ -346,13 +346,6 @@
   </url>
   
   <url>
-    <loc>https://summersong.top/tags/latex/</loc>
-    <lastmod>2022-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://summersong.top/tags/Git/</loc>
     <lastmod>2022-10-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -361,6 +354,13 @@
   
   <url>
     <loc>https://summersong.top/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2022-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://summersong.top/tags/latex/</loc>
     <lastmod>2022-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -402,6 +402,20 @@
   </url>
   
   <url>
+    <loc>https://summersong.top/tags/MIT-18-06/</loc>
+    <lastmod>2022-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://summersong.top/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</loc>
+    <lastmod>2022-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://summersong.top/tags/%E8%AF%AF%E5%B7%AE/</loc>
     <lastmod>2022-10-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -417,20 +431,6 @@
   
   <url>
     <loc>https://summersong.top/tags/%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF%E4%B8%8E%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
-    <lastmod>2022-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://summersong.top/tags/MIT-18-06/</loc>
-    <lastmod>2022-10-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://summersong.top/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</loc>
     <lastmod>2022-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -474,14 +474,14 @@
   </url>
   
   <url>
-    <loc>https://summersong.top/categories/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/</loc>
+    <loc>https://summersong.top/categories/Git/</loc>
     <lastmod>2022-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://summersong.top/categories/Git/</loc>
+    <loc>https://summersong.top/categories/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2022-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -509,14 +509,14 @@
   </url>
   
   <url>
-    <loc>https://summersong.top/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF%E4%B8%8E%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
+    <loc>https://summersong.top/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/MIT-18-06-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</loc>
     <lastmod>2022-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://summersong.top/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/MIT-18-06-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</loc>
+    <loc>https://summersong.top/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF%E4%B8%8E%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
     <lastmod>2022-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

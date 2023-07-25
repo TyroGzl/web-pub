@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://summersong.top/post/5a98b099.html</loc>
+    <loc>https://summersong.top/post/12055bee.html</loc>
     
     <lastmod>2023-07-25</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://summersong.top/post/12055bee.html</loc>
+    <loc>https://summersong.top/post/5a98b099.html</loc>
     
     <lastmod>2023-07-25</lastmod>
     
@@ -898,13 +898,6 @@
   </url>
   
   <url>
-    <loc>https://summersong.top/categories/%E2%80%94-MBSe-SysML/</loc>
-    <lastmod>2023-07-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://summersong.top/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-07-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -1018,6 +1011,20 @@
   
   <url>
     <loc>https://summersong.top/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF%E4%B8%8E%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
+    <lastmod>2023-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://summersong.top/categories/MBSe/</loc>
+    <lastmod>2023-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://summersong.top/categories/MBSe/SysML/</loc>
     <lastmod>2023-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

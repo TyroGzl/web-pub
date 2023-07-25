@@ -1016,18 +1016,4 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://summersong.top/categories/MBSe/</loc>
-    <lastmod>2023-07-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://summersong.top/categories/MBSe/SysML/</loc>
-    <lastmod>2023-07-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 </urlset>
